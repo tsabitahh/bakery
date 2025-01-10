@@ -34,7 +34,7 @@ public class Main {
     }
     
     Scanner method = new Scanner(System.in);
-    System.out.println("Would you like to: \n 1.eat here \n 2.take-out?");
+    System.out.println("Would you like to: \n 1.eat here \n 2.take-out");
 
     int choice = method.nextInt(); 
     if (choice == 1) {
@@ -45,7 +45,7 @@ public class Main {
     }
 
     if (choice == 2) {
-      System.out.println("Thank you for ordering in Bakery, " + name + "!");
+      System.out.println("Thank you for ordering in Bakery, " + name + "!" + "Please wait in the waiting room.");
     }
   }
 }
